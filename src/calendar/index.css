@@ -1,0 +1,49 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.nav-month {
+  display: flex;
+  padding: 20px;
+  color: #454343;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.nav-month :hover {
+  cursor: pointer;
+}
+
+.month-header {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+td {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+td.active {
+  background-color: #59ba26;
+}
+
+.weekdays {
+  color: grey;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.day {
+  color: #454343;
+  cursor: pointer;
+}
+
+.day:hover {
+  background-color: lightgray;
+}
