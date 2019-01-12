@@ -1,3 +1,22 @@
+# Datepicker
+
+This is a simple datepicker built in React
+
+## Installation
+
+Clone the repo
+
+```bash
+git clone https://github.com/charlierutland/datepicker.git
+cd datepicker
+```
+
+Install Dependencies
+
+```bash
+  npm install
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
